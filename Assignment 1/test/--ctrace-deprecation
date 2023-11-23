@@ -1,0 +1,28 @@
+/*-- File: main.cpp start --*/
+#include <iostream>
+
+/*-- #include "package1.hpp" start --*/
+// my_class.h
+#pragma once
+#ifndef MY_CLASS_H  // include guard
+#define MY_CLASS_H
+
+namespace N {
+class my_class {
+   public:
+    void do_something();
+};
+}  // namespace N
+
+#endif /* MY_CLASS_H */
+/*-- #include "package1.hpp" end --*/
+using namespace std;
+class cool {
+   public:
+    int x;
+};
+int main() {
+    cout << ("yes");
+    cout << ("no");
+}
+/*-- File: main.cpp end --*/
